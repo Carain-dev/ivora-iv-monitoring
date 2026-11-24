@@ -1,7 +1,5 @@
 # IVORA: IV bag weight monitor
 
-> **Note:** the source code (`backend/`, `frontend/`, `firmware/`, `docs/`) is being uploaded and will be added to this repository shortly.
-
 Benchtop research prototype. It is not a medical device and must not be used on patients. Test with water bags only.
 
 IVORA reads the IV bag weight from the ESP32 node through Blynk, works out how fast the bag is emptying and how much is left, detects events (flow interruption, high mass-loss rate, bag replacement, low volume, sensor problems), raises alerts, stores everything in PostgreSQL and shows it on a web dashboard.
